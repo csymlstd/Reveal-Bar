@@ -62,8 +62,6 @@ We've matched the options on [DesignerNews/Reveal-Bar](https://github.com/Design
 
 ## Methods
 
-```Javascript
-revealbar("#site-header", destroy() );
-```
+* `revealbar("#site-header", destroy() );`
 
-Resets element to its original position, disables the plugin, and calls options.onAttach.
+    Resets element to its original position, disables the plugin, and calls options.onAttach.
