@@ -100,10 +100,10 @@ var revealbar = function(query, _options) {
   }
 
   var $window = window,
-  $document = document,
-  lastPosition = window.pageYOffset,
-  initialBarPosition = offset($bar).top,
-  isiOS = /(iPad|iPhone|iPod)/g.test(navigator.userAgent);
+      $document = document,
+      lastPosition = window.pageYOffset,
+      initialBarPosition = offset($bar).top,
+      isiOS = /(iPad|iPhone|iPod)/g.test(navigator.userAgent);
 
   if (isiOS) return;
 
@@ -176,11 +176,12 @@ var revealbar = function(query, _options) {
 
   this.destroy = function() {
 
+    window.removeEventListener("scroll", scroll);
     options.onAttach();
 
     css($bar, {
       'position': 'absolute',
-      'top': initialBarPosition+'px'
+      'top': initialBarPosition + 'px'
     });
 
   };
