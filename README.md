@@ -12,7 +12,7 @@ Check out the [CodePen Demo](https://forc.ir/2kWOXcQ" target=)
 
 ## Usage
 
-Create a top bar/header element that is absolutely positioned, then invoke the plugin on it with:
+Create a top bar/header element that is absolutely positioned, then invoke the library on it with:
 
 ```Javascript
 // select your element
@@ -64,4 +64,4 @@ We've matched the options on [DesignerNews/Reveal-Bar](https://github.com/Design
 
 * `revealbar("#site-header", destroy() );`
 
-    Resets element to its original position, disables the plugin, and calls options.onAttach.
+    Resets element to its original position, disables the listener, and calls options.onAttach.
