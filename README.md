@@ -4,8 +4,6 @@ Vanilla Javscript to hide a top header bar as you scroll down, reveal it as you 
 
 Based on the jQuery plugin [DesignerNews/Reveal-Bar](https://github.com/DesignerNews/Reveal-Bar).
 
-
-
 ## Example
 
 Check out the [CodePen Demo](https://forc.ir/2kWOXcQ" target=)

@@ -3,8 +3,6 @@
 * Reveal Bar (vanilla JS)
 * based on https://github.com/DesignerNews/Reveal-Bar
 *
-* @author Nick Hartskeerl <apachenick@hotmail.com>
-*
 */
 var revealbar = function(query, _options) {
 
