@@ -4,7 +4,7 @@ Vanilla Javscript to hide a top header bar as you scroll down, reveal it as you 
 
 ### Example
 
-Check out the [CodePen Demo](https://forc.ir/2kWOXcQ" target="_blank)
+Check out the [CodePen Demo](https://forc.ir/2kWOXcQ)
 
 ### Usage
 
