@@ -4,14 +4,14 @@ Vanilla Javscript to hide a top header bar as you scroll down, reveal it as you 
 
 ### Example
 
-Check out the [CodePen Demo](https://forc.ir/2kWOXcQ)
+Check out the [CodePen Demo](https://forc.ir/2kWOXcQ" target=)
 
 ### Usage
 
 ```Javascript
 // select your element
 revealbar("#site-header", {
-  bottomOffset: 40, // Height of area that remains exposed
+  bottomOffset: 40,
 
   onDetach: function() {
     document.body.classList.add("header-fixed");
@@ -20,12 +20,14 @@ revealbar("#site-header", {
     document.body.classList.remove("header-fixed");
   }.bind(this),
   onShow: function() {
-    window.revealBarIsVisible = 1;
+    window.revealBarIsVisible = !0;
+    console.log( `revealBarIsVisible = ` + window.revealBarIsVisible );
   },
   onHide: function() {
-    window.revealBarIsVisible = 0;
+    window.revealBarIsVisible = !1;
+    console.log( `revealBarIsVisible = ` + window.revealBarIsVisible );
   }
-})
+});
 ```
 
 ### Options
